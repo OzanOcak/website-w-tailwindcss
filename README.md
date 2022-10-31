@@ -32,3 +32,19 @@ npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch
 ```
 
 will create css folder and style.css file within and we can click go live
+
+- we can run script npm package instead of running long command
+
+```console
+npm init -y
+```
+
+```json
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
+  },
+```
+
+then we can run tailwindcss script by **yarn tailwind** command
+
+-emojipedia ,search rocket
